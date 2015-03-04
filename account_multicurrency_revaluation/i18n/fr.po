@@ -18,7 +18,7 @@ msgstr ""
 #. module: account_multicurrency_revaluation
 #: field:wizard.currency.revaluation,revaluation_date:0
 msgid "Revaluation Date"
-msgstr "Date de réévaluation"
+msgstr "Date calcul écarts de change"
 
 #. module: account_multicurrency_revaluation
 #: report:addons/account_multicurrency_revaluation/report/templates/unrealized_currency_gain_loss.mako:56
@@ -28,17 +28,17 @@ msgstr "TOTAL"
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_unrealized_report_printer
 msgid "unrealized.report.printer"
-msgstr "Détails.ecarts.changes"
+msgstr "unrealized.report.printer"
 
 #. module: account_multicurrency_revaluation
 #: help:wizard.currency.revaluation,label:0
 msgid "This label will be inserted in entries description. You can use %(account)s, %(currency)s and %(rate)s keywords."
-msgstr "Ce champs corresponds a la desription des écritures. You pouvez utiliser les mots clés suivants: %(account)s, %(currency)s et %(rate)s."
+msgstr "Ce champs corresponds à la description des écritures. Vous pouvez utiliser les mots clés suivants: %(account)s, %(currency)s et %(rate)s."
 
 #. module: account_multicurrency_revaluation
 #: report:addons/account_multicurrency_revaluation/report/templates/unrealized_currency_gain_loss.mako:38
 msgid "Revaluation Rate"
-msgstr "Date de réévaluation"
+msgstr "Date de calcul des écarts de change"
 
 #. module: account_multicurrency_revaluation
 #: field:res.company,provision_bs_gain_account_id:0
@@ -64,7 +64,7 @@ msgstr "Compte provsion au bilan (Perte)"
 #: view:account.account:0
 #: view:wizard.currency.revaluation:0
 msgid "Currency Revaluation"
-msgstr "Réévaluation au taux de change"
+msgstr "Calcul écarts de change"
 
 #. module: account_multicurrency_revaluation
 #: help:res.company,reversable_revaluations:0
@@ -74,7 +74,7 @@ msgstr "Les écritures seront marquées comme à contrepasser"
 #. module: account_multicurrency_revaluation
 #: field:res.company,provision_pl_gain_account_id:0
 msgid "Provision P&L gain account"
-msgstr "Compte provsion au compte de résultat (Gain)"
+msgstr "Compte reprise de provision"
 
 #. module: account_multicurrency_revaluation
 #: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:520
@@ -96,7 +96,7 @@ msgstr "Devise Société"
 #: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:276
 #, python-format
 msgid "There is no period for company %s on %s"
-msgstr "Il n'y a pas de periode pour la société %s sur %s"
+msgstr "Il n'y a pas de période pour la société %s sur %s"
 
 #. module: account_multicurrency_revaluation
 #: view:res.company:0
@@ -121,7 +121,7 @@ msgstr "Montant aggrégé"
 #. module: account_multicurrency_revaluation
 #: field:res.company,revaluation_gain_account_id:0
 msgid "Revaluation gain account"
-msgstr "Compte de révaluation - Gain"
+msgstr "Compte écart de change - Gain"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.actions.report.xml,name:account_multicurrency_revaluation.report_currency_unrealized
@@ -131,7 +131,7 @@ msgstr "Ecarts de change - détails"
 #. module: account_multicurrency_revaluation
 #: report:addons/account_multicurrency_revaluation/report/templates/unrealized_currency_gain_loss.mako:40
 msgid "Balance YTD"
-msgstr "Solde YTD"
+msgstr "Solde à date"
 
 #. module: account_multicurrency_revaluation
 #: field:account.move.line,gl_foreign_balance:0
@@ -156,7 +156,7 @@ msgstr "Vous pouvez définir le journal par défaut dans les paramètres de la s
 #. module: account_multicurrency_revaluation
 #: field:account.account,currency_revaluation:0
 msgid "Allow Currency revaluation"
-msgstr "Calculer ecarts de change"
+msgstr "Calculer écarts de change"
 
 #. module: account_multicurrency_revaluation
 #: report:addons/account_multicurrency_revaluation/report/templates/unrealized_currency_gain_loss.mako:18
@@ -172,7 +172,7 @@ msgstr "Rapport"
 #: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:510
 #, python-format
 msgid "Created revaluation lines"
-msgstr "Lignes de réévaluation créées"
+msgstr "Ecritures d'écarts de change créées"
 
 #. module: account_multicurrency_revaluation
 #: view:wizard.currency.revaluation:0
@@ -182,18 +182,18 @@ msgstr "%(account)s : Compte à prendre en compte dans la réévaluation"
 #. module: account_multicurrency_revaluation
 #: field:res.company,reversable_revaluations:0
 msgid "Reversable Revaluations"
-msgstr "Réévaluations à contrepasser"
+msgstr "Ecart de change à contrepasser"
 
 #. module: account_multicurrency_revaluation
 #: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:447
 #, python-format
 msgid "No fiscal entries found"
-msgstr "Pas d'exercice comptable"
+msgstr "Pas d'ecriture comptable trouvée"
 
 #. module: account_multicurrency_revaluation
 #: report:addons/account_multicurrency_revaluation/report/templates/unrealized_currency_gain_loss.mako:39
 msgid "Revaluated Amount YTD"
-msgstr "Montant YTD réévalué"
+msgstr "Montant à date réévalué"
 
 #. module: account_multicurrency_revaluation
 #: help:wizard.currency.revaluation,currency_type:0
@@ -208,7 +208,7 @@ msgstr "Ecritures comptables"
 #. module: account_multicurrency_revaluation
 #: report:addons/account_multicurrency_revaluation/report/templates/unrealized_currency_gain_loss.mako:41
 msgid "Gain(+)/Loss(-) YTD"
-msgstr "Gain(+)/Perte(-) YTD"
+msgstr "Gain(+)/Perte(-) à date"
 
 #. module: account_multicurrency_revaluation
 #: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:455
@@ -246,14 +246,14 @@ msgstr "Montant réévalué"
 #. module: account_multicurrency_revaluation
 #: view:res.company:0
 msgid "Provision P&L accounts"
-msgstr "Comptes de provision (compte de résulat)"
+msgstr "Comptes de dotation de provision"
 
 #. module: account_multicurrency_revaluation
 #: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:381
 #, python-format
 msgid "No revaluation or provision account are defined for your company.\n"
 "You must specify at least one provision account or a couple of provision account."
-msgstr "Aucun compte de réévaluation n'a été dénini au niveau de la société\n"
+msgstr "Aucun compte d'écart de change n'a été dénini au niveau de la société\n"
 ""
 
 #. module: account_multicurrency_revaluation
@@ -265,7 +265,7 @@ msgstr "Pas d'exercice comptable trouvé pour la société %s sur %s"
 #. module: account_multicurrency_revaluation
 #: view:wizard.currency.revaluation:0
 msgid "_Validate"
-msgstr "_Valide"
+msgstr ""
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_res_company
@@ -280,12 +280,12 @@ msgstr ""
 #. module: account_multicurrency_revaluation
 #: report:addons/account_multicurrency_revaluation/report/templates/unrealized_currency_gain_loss.mako:36
 msgid "Curr. Balance YTD"
-msgstr "Solde YTD en Devise"
+msgstr "Solde en Devise à date"
 
 #. module: account_multicurrency_revaluation
 #: view:wizard.currency.revaluation:0
 msgid "This will reevaluate the currency gain & loss"
-msgstr ""
+msgstr "Ceci calculera les écarts de change"
 
 #. module: account_multicurrency_revaluation
 #: view:res.company:0
@@ -323,7 +323,7 @@ msgstr "Erreur"
 #. module: account_multicurrency_revaluation
 #: view:wizard.currency.revaluation:0
 msgid "%(rate)s : Value of rate applied during revaluation"
-msgstr "%(rate)s : Valeur du taux appliqué pour la réévaluation"
+msgstr "%(rate)s : Valeur du taux appliqué pour le calcul des écarts"
 
 #. module: account_multicurrency_revaluation
 #: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:402
@@ -340,7 +340,7 @@ msgstr "%s argument n'est pas défini ici"
 #. module: account_multicurrency_revaluation
 #: help:res.currency,rate_silent:0
 msgid "The rate of the currency to the currency of rate 1 (0 if no rate defined)."
-msgstr "Le taux de la devise par rapport au taux de base 1 (0 si aucune taux défini) "
+msgstr "Taux de la devise par rapport au taux de base 1 (0 si aucun taux défini) "
 
 #. module: account_multicurrency_revaluation
 #: field:account.move.line,gl_currency_rate:0
@@ -382,7 +382,7 @@ msgstr "Période comptable"
 #. module: account_multicurrency_revaluation
 #: field:res.company,provision_pl_loss_account_id:0
 msgid "Provision P&L loss account"
-msgstr "Compte de provision (Compte de résultat)"
+msgstr "Compte de dotation de provision"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.actions.act_window,name:account_multicurrency_revaluation.currency_urealized_report_action_wizard
@@ -395,7 +395,7 @@ msgstr "Détails écarts de change"
 #: model:ir.actions.act_window,name:account_multicurrency_revaluation.action_view_account_currency_revaluation_wizard
 #: model:ir.ui.menu,name:account_multicurrency_revaluation.menu_view_account_currency_revaluation_wizard
 msgid "Currency revaluation"
-msgstr "Réévaluation de change"
+msgstr "Ecarts de change"
 
 #. module: account_multicurrency_revaluation
 #: field:wizard.currency.revaluation,currency_type:0
@@ -439,7 +439,7 @@ msgstr "Attention!"
 #. module: account_multicurrency_revaluation
 #: view:unrealized.report.printer:0
 msgid "_Print"
-msgstr "_Edition"
+msgstr ""
 
 #. module: account_multicurrency_revaluation
 #: view:unrealized.report.printer:0
@@ -460,7 +460,7 @@ msgstr "Plan comptable"
 #. module: account_multicurrency_revaluation
 #: field:res.company,default_currency_reval_journal_id:0
 msgid "Currency gain & loss Default Journal"
-msgstr "Journal pour ecarts de change "
+msgstr "Journal des écarts de change "
 
 #. module: account_multicurrency_revaluation
 #: field:wizard.currency.revaluation,journal_id:0
