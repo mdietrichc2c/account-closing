@@ -110,7 +110,7 @@ msgstr "Compte analytique"
 
 #. module: account_multicurrency_revaluation
 #: field:res.company,provision_pl_analytic_account_id:0
-msgid "Provision P&l Analytic account"
+msgid "Provision P&L Analytic account"
 msgstr "Compte analytique"
 
 #. module: account_multicurrency_revaluation
@@ -151,7 +151,7 @@ msgstr "Aucun taux trouvé \n"
 #. module: account_multicurrency_revaluation
 #: help:wizard.currency.revaluation,journal_id:0
 msgid "You can set the default journal in company settings."
-msgstr "Vous pouvez définir le journal par défaut dans les paramètres de la société"
+msgstr "Vous pouvez définir le journal par défaut dans les paramètres de la société."
 
 #. module: account_multicurrency_revaluation
 #: field:account.account,currency_revaluation:0
