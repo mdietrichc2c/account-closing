@@ -351,7 +351,7 @@ msgstr "Taux de change"
 #: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:403
 #, python-format
 msgid "No account to be revaluated found. Please check 'Allow Currency Revaluation' for at least one account in account form."
-msgstr "Aucun compte à réévaluer. Vérifiez que la case 'Calculer ecarts de change' a été cochée dans le formulaire des comptes à réévaluer"
+msgstr "Aucun compte à réévaluer. Vérifiez que la case 'Calculer écarts de change' a été cochée dans le formulaire des comptes à réévaluer"
 
 #. module: account_multicurrency_revaluation
 #: view:res.company:0
